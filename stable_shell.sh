@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "[+] Stabalising your shell..."
+echo "Run this command inside rev shell"
+echo "python3 -c 'import pty; pty.spawn(\"/bin/bash\")'"
+echo ""
+echo "On your machine press: CTRL+Z"
+echo "stty raw -echo; fg"
+echo "Press Enter twice"
+echo "reset"
+echo "export TERM=xterm-256color"
+echo "export SHELL=bash"
+echo "[+] Shell should be stabalised!!"
